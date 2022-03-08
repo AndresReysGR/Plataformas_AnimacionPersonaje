@@ -1,0 +1,396 @@
+Validation Suite Results for package "com.unity.package-validation-suite"
+ - Path: F:\Escuelita\ULSA2022GGJJ\Library\PackageCache\com.unity.package-validation-suite@0.23.4-preview
+ - Version: 0.23.4-preview
+ - Type: Tooling
+ - Context: Promotion
+ - Lifecycle: 1
+ - Test Time: 03/03/2022 01:16:30 a. m.
+ - Tested with com.unity.package-validation-suite version: 0.23.4-preview
+
+PACKAGE DEPENDENCIES:
+--------------------
+    - com.unity.nuget.mono-cecil@0.1.6-preview.2
+
+VALIDATION RESULTS:
+------------------
+
+Failed - "Package Lifecycle Validation"
+    Error: Version 0.23.4-preview of this package already exists in production.
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Package Lifecycle Validation",
+            "ExceptionMessage": "Version 0.23.4-preview of this package already exists in production.",
+            "PackageVersion": "0.23.4-preview"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    
+Succeeded - "Assembly Definition Validation"
+    
+Succeeded - "Assets Validation"
+    
+Succeeded - "ChangeLog Validation"
+    
+Succeeded - "Package Diff Evaluation"
+    
+Succeeded - "Folder Structure Validation"
+    Warning: The Resources Directory should not be used in packages.  For more guidance, please visit https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity6.html
+
+    Information: Problematic directory: /F:/Escuelita/ULSA2022GGJJ/Library/PackageCache/com.unity.package-validation-suite@0.23.4-preview/Editor/Resources
+
+    
+Succeeded - "License Validation"
+    
+Succeeded - "Documentation Validation"
+    
+Succeeded - "Manifest Validation"
+    
+Succeeded - "Meta Files Validation"
+    
+Succeeded - "Package Unity Version Validation"
+    
+Succeeded - "Path Length Validation"
+    
+Succeeded - "Required File Type Validation"
+    
+Succeeded - "Restricted File Type Validation"
+    Warning: /Bin~/FindMissingDocs/Dotnet.ProjInfo.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Dotnet.ProjInfo.Helpers.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/FSharp.Compiler.Service.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/FSharp.Core.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.Build.Locator.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.CSharp.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.CSharp.Features.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.CSharp.Workspaces.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.Features.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.FlowAnalysis.Utilities.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.VisualBasic.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.VisualBasic.Features.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.Workspaces.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DiaSymReader.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.Common.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.DataContracts.Common.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.DataContracts.ManagedReference.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.Metadata.ManagedReference.Common.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.Metadata.ManagedReference.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.Metadata.ManagedReference.FSharp.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.Metadata.ManagedReference.Roslyn.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.Plugins.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.DocAsCode.YamlSerialization.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.VisualStudio.RemoteControl.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Microsoft.VisualStudio.Utilities.Internal.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Newtonsoft.Json.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Common.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Configuration.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.DependencyResolver.Core.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Frameworks.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.LibraryModel.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Packaging.Core.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Packaging.Core.Types.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Packaging.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.ProjectModel.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Protocol.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/NuGet.Versioning.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Buffers.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Collections.Immutable.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Composition.AttributedModel.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Composition.Convention.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Composition.Hosting.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Composition.Runtime.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Composition.TypedParts.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Memory.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Numerics.Vectors.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Reflection.Metadata.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Runtime.CompilerServices.Unsafe.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Text.Encoding.CodePages.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Threading.Tasks.Dataflow.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.Threading.Tasks.Extensions.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/System.ValueTuple.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Unity.Options.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Unity.XmlDoc.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Unity.XmlDoc.Filter.Common.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Unity.XmlDoc.Filter.Yaml.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/Unity.XmlDoc.FindMissingDocs.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Bin~/FindMissingDocs/YamlDotNet.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Lib/Editor/log4net.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    Warning: /Lib/Editor/Unity.APIComparison.Framework.dll should not be included in packages unless absolutely necessary. Please confirm that its inclusion is deliberate and intentional.
+
+    
+Succeeded - "API Updater Configuration Validation"
+    Information: PackageValidationSuite update configurations tested by editor tests.
+
+    
+Succeeded - "Xmldoc Validation"
+    Warning: The following APIs are missing documentation: Missing Doc on UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown.StructureLabelText
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown.AssetStoreLabelText
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown.UnityCandidatesStandardsLabelText
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown.UnityProductionStandardsLabelText
+Missing Doc on static System.Collections.Generic.List<string> UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown::ToList()
+Missing Doc on static UnityEditor.PackageManager.ValidationSuite.ValidationType UnityEditor.PackageManager.ValidationSuite.UI.ValidationTypeDropdown::ValidationTypeFromDropdown(System.String, PackageSource)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationSuiteSetup
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationSuiteTeardown
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuite::.ctor()
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.ValidationSuite::ValidatePackage(System.String, System.String, System.String[])
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.ValidationSuite::ValidatePackage(UnityEditor.PackageManager.ValidationSuite.VettingContext, UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.ValidationSuite::ValidatePackage(UnityEditor.PackageManager.ValidationSuite.VettingContext, UnityEditor.PackageManager.ValidationSuite.ValidationType, UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TextReport
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TextReport.FilePath
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.TextReport::.ctor(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.TextReport::Clear()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.TextReport::Write(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.TextReport::Append(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.TextReport::Replace(System.String, System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.TextReport::GenerateReport(UnityEditor.PackageManager.ValidationSuite.ValidationSuite)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.TextReport::ReportPath(System.String)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.TextReport::ReportExists(System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport.ResultsPath
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport.ReportData
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::.ctor()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::.ctor(System.String, System.String, System.String, System.String)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::DiffsReportPath(System.String)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::ReportExists(System.String)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::GetJsonReportPath(System.String)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::JsonReportExists(System.String)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::DiffsReportExists(System.String)
+Missing Doc on static UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReportData UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::GetReport(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::OutputErrorReport(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::GenerateVettingReport(UnityEditor.PackageManager.ValidationSuite.ValidationSuite)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::GenerateTextReport(UnityEditor.PackageManager.ValidationSuite.ValidationSuite)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationSuiteReport::GenerateJsonReport(UnityEditor.PackageManager.ValidationSuite.ValidationSuite)
+Missing Doc on System.String UnityEditor.PackageManager.ValidationSuite.ValidationTestOutput::ToString()
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntryType
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntryType.GeneralConcerns
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntryType.LegalConcerns
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntryType.SecurityConcerns
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntry
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntry.Type
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingReportEntry.Entry
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.CannotFindChangelog
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.VersionFormatIsNotValid
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.NoValidChangelogEntriesWereFound
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.ChangelogDateIsNotValid
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.NoChangelogEntryForVersionFound
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.FoundChangelogWrongPosition
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.UnreleasedSectionFirst
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.UnreleasedNotAllowedInPromoting
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.LicenseFileMissing
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorTypes.InvalidLifecycleV2
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ErrorDocumentation
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.ErrorDocumentation::GetLinkMessage(UnityEditor.PackageManager.ValidationSuite.ErrorTypes)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.ErrorDocumentation::GetLinkMessage(System.String, System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebRequestFactory
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest UnityEditor.PackageManager.ValidationSuite.HttpWebRequestFactory::Create(System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebRequestWrap
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebRequestWrap.Method
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebRequestWrap.Timeout
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebRequestWrap.UserAgent
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.HttpWebRequestWrap::.ctor(HttpWebRequest)
+Missing Doc on IHttpWebResponse UnityEditor.PackageManager.ValidationSuite.HttpWebRequestWrap::GetResponse()
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebResponseWrap
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.HttpWebResponseWrap.StatusCode
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.HttpWebResponseWrap::.ctor(HttpWebResponse)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.HttpWebResponseWrap::Dispose()
+Missing Doc on System.IO.Stream UnityEditor.PackageManager.ValidationSuite.HttpWebResponseWrap::GetResponseStream()
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest.Method
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest.Timeout
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest.UserAgent
+Missing Doc on IHttpWebResponse UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest::GetResponse()
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequestFactory
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IHttpWebRequest UnityEditor.PackageManager.ValidationSuite.IHttpWebRequestFactory::Create(System.String)
+Missing Doc on IHttpWebResponse
+Missing Doc on IHttpWebResponse.StatusCode
+Missing Doc on System.IO.Stream IHttpWebResponse::GetResponseStream()
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.Utilities
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.Utilities.NetworkNotReachable
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.Utilities::CreatePackageId(System.String, System.String)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.Utilities::IsPreviewVersion(System.String)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.Utilities::ExtractPackage(System.String, System.String, System.String, System.String, System.Boolean)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.Utilities::GetMonoPath()
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.Utilities::GetOSAgnosticPath(System.String)
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.Utilities::GetPathFromRoot(System.String, System.String)
+Missing Doc on static System.Boolean UnityEditor.PackageManager.ValidationSuite.Utilities::IsTestAssembly(UnityEditor.Compilation.Assembly)
+Missing <param name="packageRootPath"> on method static System.Collections.Generic.IEnumerable<UnityEditor.Compilation.Assembly> UnityEditor.PackageManager.ValidationSuite.Utilities::AssembliesForPackage(System.String)
+Missing <returns> on non-void method static System.Collections.Generic.IEnumerable<UnityEditor.Compilation.Assembly> UnityEditor.PackageManager.ValidationSuite.Utilities::AssembliesForPackage(System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.SupportedValidations
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.SupportedPackageTypes
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.Suite
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.TestName
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.TestDescription
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.TestCategory
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.ValidationTest
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.TestState
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.TestOutput
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.VettingEntries
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.StartTime
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.EndTime
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.Context
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.ShouldRun
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.CanUseValidationExceptions
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation.CanUseCompleteTestExceptions
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::.ctor()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::Setup()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::RunTest()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::Run()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::ConvertStandardsIssuesToTestOutput()
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddError(System.String, System.Object[])
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddWarning(System.String, System.Object[])
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddInformation(System.String, System.Object[])
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddError(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddWarning(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddInformation(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddVettingEntry(UnityEditor.PackageManager.ValidationSuite.VettingReportEntryType, System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddPromotionConditionalError(System.String)
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.ValidationTests.BaseValidation::AddUnityAuthoredConditionalError(UnityEditor.PackageManager.ValidationSuite.ManifestData, System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TestCategory
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TestCategory.DataValidation
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TestCategory.ApiValidation
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TestCategory.ContentScan
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.TestCategory.TestValidation
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IValidationTest
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IValidationTest.Suite
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IValidationTest.TestName
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IValidationTest.TestDescription
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.IValidationTest.TestCategory
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.path
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.name
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.documentationUrl
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.displayName
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.description
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.unity
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.unityRelease
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.version
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.lifecycle
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.type
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.author
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.authorDetails
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.samples
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.repository
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.dependencies
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.relatedPackages
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.keywords
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.PackageType
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.IsProjectTemplate
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.ManifestData.Id
+Missing Doc on static System.String UnityEditor.PackageManager.ValidationSuite.ManifestData::GetPackageId(System.String, System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.SampleData
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.SampleData.displayName
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.SampleData.description
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.SampleData.path
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.AuthorDetails
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.AuthorDetails.name
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.AuthorDetails.email
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.AuthorDetails.url
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.RelatedPackage
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.RelatedPackage.Name
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.RelatedPackage.Version
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.RelatedPackage.Path
+Missing Doc on System.Void UnityEditor.PackageManager.ValidationSuite.RelatedPackage::.ctor(System.String, System.String, System.String)
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.IsCore
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.ProjectPackageInfo
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PublishPackageInfo
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PreviousPackageInfo
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.AllVersions
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.IsRunByReleaseManagement
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.VSuiteInfo
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PackageExistsOnProduction
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PackageVersionExistsOnProduction
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PreviousPackageBinaryDirectory
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.ValidationType
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PackageType
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.PreviousVersionBinaryPath
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.relatedPackages
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.ValidationExceptionManager
+Missing Doc on UnityEditor.PackageManager.ValidationSuite.VettingContext.packageIdsForPromotion
+Missing Doc on static UnityEditor.PackageManager.ValidationSuite.VettingContext UnityEditor.PackageManager.ValidationSuite.VettingContext::CreatePackmanContext(System.String, UnityEditor.PackageManager.ValidationSuite.ValidationType)
+Missing Doc on static UnityEditor.PackageManager.ValidationSuite.VettingContext UnityEditor.PackageManager.ValidationSuite.VettingContext::CreateAssetStoreContext(System.String, System.String, System.String, System.String)
+Missing Doc on static UnityEditor.PackageManager.ValidationSuite.ManifestData UnityEditor.PackageManager.ValidationSuite.VettingContext::GetManifest(System.String)
+
+    
+NotRun - "API Validation"
+    Information: Skipping API Validation because package manifest unity property doesn't match current editor version.
+
+    Information: In order for API Validation to run the platform must be Windows and the package manifest must have a unity property that matches the major and minor version of the editor that Package Validation Suite is run with.
+
+    
+NotRun - "Samples Validation"
+    Information: No samples found. Skipping Samples Validation.
+
+    
+NotImplementedYet - "Signature Validation"
+    

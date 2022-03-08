@@ -1,0 +1,332 @@
+Package Update Delta Evaluation
+-------------------------------
+
+Package Name: com.unity.2d.spriteshape
+Package Version: 3.0.17
+Compared to Version: 3.0.16
+
+Modified:
+    \CHANGELOG.md
+
+
+Package Tree
+------------
+
+<com.unity.2d.spriteshape>
+    CHANGELOG.md  (MODIFIED)
+    CHANGELOG.md.meta
+    Editor.meta
+    LICENSE.md
+    LICENSE.md.meta
+    package.json
+    package.json.meta
+    README.md
+    README.md.meta
+    Runtime.meta
+    Tests.meta
+    Third Party Notices.md
+    Third Party Notices.md.meta
+    <Documentation~>
+        index.md
+        SSCollision.md
+        SSController.md
+        SSProfile.md
+        TableOfContents.md
+        <images>
+            2019_3_SSController_collider.png
+            2019_3_SSController_noedit.png
+            2D_SpriteShape_010.png
+            2D_SpriteShape_011.png
+            2D_SpriteShape_012.png
+            2D_SpriteShape_013.png
+            2D_SpriteShape_014.png
+            2D_SpriteShape_015.png
+            2D_SpriteShape_016.png
+            2D_SpriteShape_017.png
+            2D_SpriteShape_018.png
+            2D_SpriteShape_019.png
+            2D_SpriteShape_020.png
+            2D_SpriteShape_021.png
+            2D_SpriteShape_022.png
+            2D_SpriteShape_023.png
+            2D_SpriteShape_024.png
+            2D_SpriteShape_025.png
+            2D_SpriteShape_026.png
+            2D_SpriteShape_027.png
+            2D_SpriteShape_028.png
+            2D_SpriteShape_029.png
+            2D_SpriteShape_030.png
+            2D_SpriteShape_031.png
+            2D_SpriteShape_032.png
+            2D_SpriteShape_033.png
+            2D_SpriteShape_034.png
+            2D_SpriteShape_035.png
+            2D_SpriteShape_036.png
+            2D_SpriteShape_037.png
+            2D_SpriteShape_038.png
+            2D_SpriteShape_039.png
+            2D_SpriteShape_040.png
+            2D_SpriteShape_041.png
+            2D_SpriteShape_042.png
+            2D_SpriteShape_043.png
+            2D_SpriteShape_044.png
+            2D_SpriteShape_045.png
+            2D_SpriteShape_046.png
+            2D_SpriteShape_047.png
+            2D_SpriteShape_048.png
+            2D_SpriteShape_049.png
+            2D_SpriteShape_1.png
+            2D_SpriteShape_2.png
+            2D_SpriteShape_3.png
+            2D_SpriteShape_4.png
+            2D_SpriteShape_5.png
+            2D_SpriteShape_6.png
+            2D_SpriteShape_7.png
+            2D_SpriteShape_8.png
+            2D_SpriteShape_9.png
+            ClosedShapeProfile.png
+            enable_tangents.png
+            OpenShapeProfile.png
+            PropertyImage1.png
+            UpdatedEditSpline_2019-3.png
+            v1.1-AngleRange.png
+            v1.1-ClosedShapeSquare.png
+            v1.1-Collider.png
+            v1.1-ColliderOptionsDisable.png
+            v1.1-ColliderwOptions.png
+            v1.1-EditSpline.png
+            v1.1-shortcuts.png
+            v1.1-SSControllerCollider.png
+            v1.1-SSControllerCP.png
+            v1.1-SSControllerSettings.png
+            v1.1-SSProfile.png
+            v1.1-UpdatedEditSpline.png
+            v1.1-WorkingExam.png
+    <Editor>
+        AngleRangeController.cs
+        AngleRangeController.cs.meta
+        AngleRangeGUI.cs
+        AngleRangeGUI.cs.meta
+        AngleRangeView.cs
+        AngleRangeView.cs.meta
+        ContextMenu.cs
+        ContextMenu.cs.meta
+        EditorSpriteGUIUtility.cs
+        EditorSpriteGUIUtility.cs.meta
+        Handles.meta
+        Icons.meta
+        SceneDragAndDrop.cs
+        SceneDragAndDrop.cs.meta
+        SpriteSelector.cs
+        SpriteSelector.cs.meta
+        SpriteShapeAnalytics.cs
+        SpriteShapeAnalytics.cs.meta
+        SpriteShapeAssetPostProcessor.cs
+        SpriteShapeAssetPostProcessor.cs.meta
+        SpriteShapeControllerEditor.cs
+        SpriteShapeControllerEditor.cs.meta
+        SpriteShapeEditor.cs
+        SpriteShapeEditor.cs.meta
+        SpriteShapeEditorAnalytics.cs
+        SpriteShapeEditorAnalytics.cs.meta
+        SpriteShapeEditorGUI.cs
+        SpriteShapeEditorGUI.cs.meta
+        SpriteShapeEditorTool.cs
+        SpriteShapeEditorTool.cs.meta
+        SpriteShapeEditorUtility.cs
+        SpriteShapeEditorUtility.cs.meta
+        SpriteShapeHandleUtility.cs
+        SpriteShapeHandleUtility.cs.meta
+        Unity.2D.SpriteShape.Editor.asmdef
+        Unity.2D.SpriteShape.Editor.asmdef.meta
+        <Handles>
+            Shaders.meta
+            ss_leftrange.png
+            ss_leftrange.png.meta
+            ss_playhead.png
+            ss_playhead.png.meta
+            ss_rightrange.png
+            ss_rightrange.png.meta
+            <Shaders>
+                Sprites-Inspector.shader
+                Sprites-Inspector.shader.meta
+        <Icons>
+            SpriteShape@64.png
+            SpriteShape@64.png.meta
+            SpriteShapeController@64.png
+            SpriteShapeController@64.png.meta
+    <Runtime>
+        AssemblyInfo.cs
+        AssemblyInfo.cs.meta
+        BezierUtility.cs
+        BezierUtility.cs.meta
+        External.meta
+        Spline.cs
+        Spline.cs.meta
+        SplineUtility.cs
+        SplineUtility.cs.meta
+        SpriteShape.cs
+        SpriteShape.cs.meta
+        SpriteShapeController.cs
+        SpriteShapeController.cs.meta
+        SpriteShapeGenerator.cs
+        SpriteShapeGenerator.cs.meta
+        SpriteShapeGeometryCache.cs
+        SpriteShapeGeometryCache.cs.meta
+        Unity.2D.SpriteShape.Runtime.asmdef
+        Unity.2D.SpriteShape.Runtime.asmdef.meta
+        <External>
+            LibTessDotNet.meta
+            <LibTessDotNet>
+                Dict.cs
+                Dict.cs.meta
+                Geom.cs
+                Geom.cs.meta
+                LICENSE.txt
+                LICENSE.txt.meta
+                Mesh.cs
+                Mesh.cs.meta
+                MeshUtils.cs
+                MeshUtils.cs.meta
+                PriorityHeap.cs
+                PriorityHeap.cs.meta
+                PriorityQueue.cs
+                PriorityQueue.cs.meta
+                Sweep.cs
+                Sweep.cs.meta
+                Tess.cs
+                Tess.cs.meta
+    <Samples~>
+        <Extras>
+            .sample.json
+            Prefabs.meta
+            Scenes.meta
+            Scripts.meta
+            Sprite Shape Profiles.meta
+            Sprites.meta
+            Textures.meta
+            <Prefabs>
+                TreeSprite.prefab
+                TreeSprite.prefab.meta
+            <Scenes>
+                Colliders.unity
+                Colliders.unity.meta
+                ConformingSplineScene.unity
+                ConformingSplineScene.unity.meta
+                SimpleDrawScene.unity
+                SimpleDrawScene.unity.meta
+                SimplifiedSpriteShape.unity
+                SimplifiedSpriteShape.unity.meta
+                SprinklePrefabs.unity
+                SprinklePrefabs.unity.meta
+            <Scripts>
+                Clipper.cs
+                Clipper.cs.meta
+                ConformingSpline.cs
+                ConformingSpline.cs.meta
+                GenerateSpriteShapes.cs
+                GenerateSpriteShapes.cs.meta
+                GeometryCollider.cs
+                GeometryCollider.cs.meta
+                LegacyCollider.cs
+                LegacyCollider.cs.meta
+                SimpleDraw.cs
+                SimpleDraw.cs.meta
+                Sprinkler.cs
+                Sprinkler.cs.meta
+            <Sprite Shape Profiles>
+                Branch.asset
+                Branch.asset.meta
+                Castle Wall.asset
+                Castle Wall.asset.meta
+                Simple1.asset
+                Simple1.asset.meta
+                Simple2.asset
+                Simple2.asset.meta
+                Simple3.asset
+                Simple3.asset.meta
+                Tree A.asset
+                Tree A.asset.meta
+            <Sprites>
+                CastleWall.psd
+                CastleWall.psd.meta
+                IceSprite.png
+                IceSprite.png.meta
+                PlankSprite.png
+                PlankSprite.png.meta
+                RoadSprite.png
+                RoadSprite.png.meta
+                Tree Fill A.png
+                Tree Fill A.png.meta
+                TreeSprite.png
+                TreeSprite.png.meta
+                TreeTrunk01.png
+                TreeTrunk01.png.meta
+            <Textures>
+                CastleWallFill.psd
+                CastleWallFill.psd.meta
+        <Samples>
+            .sample.json
+            1 Basics.unity
+            1 Basics.unity.meta
+            2 Corners.unity
+            2 Corners.unity.meta
+            3 Platformer.unity
+            3 Platformer.unity.meta
+            Sprite Shape Profiles.meta
+            Sprites.meta
+            Textures.meta
+            <Sprite Shape Profiles>
+                Basic.asset
+                Basic.asset.meta
+                Castle Wall.asset
+                Castle Wall.asset.meta
+                Grass and Rocks.asset
+                Grass and Rocks.asset.meta
+                Grass Strip.asset
+                Grass Strip.asset.meta
+                Platform Supports.asset
+                Platform Supports.asset.meta
+                Platform.asset
+                Platform.asset.meta
+                Tree A.asset
+                Tree A.asset.meta
+                Tree B.asset
+                Tree B.asset.meta
+                Tree C.asset
+                Tree C.asset.meta
+            <Sprites>
+                CastleWall.psd
+                CastleWall.psd.meta
+                Dark Grey Fill.png
+                Dark Grey Fill.png.meta
+                Grass Outline.png
+                Grass Outline.png.meta
+                Grass Strip.png
+                Grass Strip.png.meta
+                Grass Top - With Flowers.png
+                Grass Top - With Flowers.png.meta
+                Grass Top - With Small Rocks.png
+                Grass Top - With Small Rocks.png.meta
+                Grass Top.png
+                Grass Top.png.meta
+                Orange Outline.png
+                Orange Outline.png.meta
+                Rock Fill.png
+                Rock Fill.png.meta
+                Rocks.png
+                Rocks.png.meta
+                Tree Fill A.png
+                Tree Fill A.png.meta
+                Tree Fill B.png
+                Tree Fill B.png.meta
+                Tree FIll C.png
+                Tree FIll C.png.meta
+            <Textures>
+                CastleWallFill.psd
+                CastleWallFill.psd.meta
+    <Tests>
+        PlaceholderTests.cs
+        PlaceholderTests.cs.meta
+        Unity.2D.SpriteShape.EditorTests.asmdef
+        Unity.2D.SpriteShape.EditorTests.asmdef.meta

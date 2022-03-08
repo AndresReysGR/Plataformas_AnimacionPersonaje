@@ -1,0 +1,1066 @@
+Validation Suite Results for package "com.unity.render-pipelines.universal"
+ - Path: F:\Escuelita\ULSA2022GGJJ\Library\PackageCache\com.unity.render-pipelines.universal@10.8.1
+ - Version: 10.8.1
+ - Type: Tooling
+ - Context: Promotion
+ - Lifecycle: 2
+ - Test Time: 03/03/2022 01:21:19 a. m.
+ - Tested with com.unity.package-validation-suite version: 0.23.6-preview
+
+PACKAGE DEPENDENCIES:
+--------------------
+    - com.unity.mathematics@1.1.0
+    - com.unity.render-pipelines.core@10.8.1
+    - com.unity.shadergraph@10.8.1
+
+VALIDATION RESULTS:
+------------------
+
+Failed - "Package Lifecycle Validation"
+    Error: Version 10.8.1 of this package already exists in production.
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Package Lifecycle Validation",
+            "ExceptionMessage": "Version 10.8.1 of this package already exists in production.",
+            "PackageVersion": "10.8.1"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    Error: Automated promotion of Release or Release Candidate packages is not allowed. Release Management are the only ones that can promote Release and Release Candidate packages to production, if you need this to happen, please go to #devs-pkg-promotion. Read more about this error and potential solutions at https://docs.unity3d.com/Packages/com.unity.package-validation-suite@latest/index.html?preview=1&subfolder=/manual/lifecycle_validation_error.html#a-release-package-must-be-manually-promoted-by-release-management
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Package Lifecycle Validation",
+            "ExceptionMessage": "Automated promotion of Release or Release Candidate packages is not allowed. Release Management are the only ones that can promote Release and Release Candidate packages to production, if you need this to happen, please go to #devs-pkg-promotion. Read more about this error and potential solutions at https://docs.unity3d.com/Packages/com.unity.package-validation-suite@latest/index.html?preview=1&subfolder=/manual/lifecycle_validation_error.html#a-release-package-must-be-manually-promoted-by-release-management",
+            "PackageVersion": "10.8.1"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    
+Succeeded - "Assembly Definition Validation"
+    
+Succeeded - "Assets Validation"
+    
+Succeeded - "ChangeLog Validation"
+    
+Succeeded - "Package Diff Evaluation"
+    
+Succeeded - "Folder Structure Validation"
+    Warning: The Resources Directory should not be used in packages.  For more guidance, please visit https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity6.html
+
+    Information: Problematic directory: /F:/Escuelita/ULSA2022GGJJ/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/2D/ShapeEditor/Resources
+
+    Information: Problematic directory: /F:/Escuelita/ULSA2022GGJJ/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/2D/Resources
+
+    
+Succeeded - "License Validation"
+    
+Succeeded - "Documentation Validation"
+    
+Succeeded - "Manifest Validation"
+    
+Succeeded - "Meta Files Validation"
+    
+Succeeded - "Package Unity Version Validation"
+    
+Succeeded - "Path Length Validation"
+    
+Succeeded - "Required File Type Validation"
+    
+Succeeded - "Restricted File Type Validation"
+    
+Succeeded - "API Updater Configuration Validation"
+    
+Succeeded - "Xmldoc Validation"
+    Warning: The following APIs are missing documentation: Missing Doc on UnityEditor.Rendering.Universal.ForwardRendererDataEditor
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ForwardRendererDataEditor::OnInspectorGUI()
+Missing Doc on UnityEditor.LightExplorer
+Missing Doc on LightingExplorerTableColumn[] UnityEditor.LightExplorer::GetReflectionProbeColumns()
+Missing Doc on UnityEditor.Rendering.Universal.PostProcessDataEditor
+Missing Doc on System.Void UnityEditor.Rendering.Universal.PostProcessDataEditor::OnInspectorGUI()
+Missing Doc on UnityEditor.Rendering.Universal.ScriptableRendererDataEditor
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ScriptableRendererDataEditor::OnInspectorGUI()
+Missing Doc on UnityEditor.Rendering.Universal.ScriptableRendererFeatureEditor
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ScriptableRendererFeatureEditor::OnInspectorGUI()
+Missing Doc on UnityEditor.Rendering.Universal.UniversalAdditionLightDataEditor
+Missing Doc on System.Void UnityEditor.Rendering.Universal.UniversalAdditionLightDataEditor::OnInspectorGUI()
+Missing Doc on UnityEditor.Rendering.Universal.UniversalRenderPipelineAssetEditor
+Missing Doc on System.Void UnityEditor.Rendering.Universal.UniversalRenderPipelineAssetEditor::OnInspectorGUI()
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.diffuseOpaque
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.specularOpaque
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.diffuseAlpha
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.specularAlpha
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.diffuseAlphaCutout
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.specularAlphaCutout
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.diffuseCubemap
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.specularCubemap
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.diffuseCubemapAlpha
+Missing Doc on UnityEditor.Rendering.Universal.SupportedUpgradeParams.specularCubemapAlpha
+Missing Doc on UnityEditor.Rendering.Universal.StandardUpgrader
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.StandardUpgrader::UpdateStandardMaterialKeywords(Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.StandardUpgrader::UpdateStandardSpecularMaterialKeywords(Material)
+Missing Doc on System.Void UnityEditor.Rendering.Universal.StandardUpgrader::.ctor(System.String)
+Missing Doc on UnityEditor.Rendering.Universal.TerrainUpgrader
+Missing Doc on System.Void UnityEditor.Rendering.Universal.TerrainUpgrader::.ctor(System.String)
+Missing Doc on UnityEditor.Rendering.Universal.ParticleUpgrader
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ParticleUpgrader::.ctor(System.String)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ParticleUpgrader::UpdateStandardSurface(Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ParticleUpgrader::UpdateUnlit(Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ParticleUpgrader::UpdateSurfaceBlendModes(Material)
+Missing Doc on UnityEditor.Rendering.Universal.AutodeskInteractiveUpgrader
+Missing Doc on System.Void UnityEditor.Rendering.Universal.AutodeskInteractiveUpgrader::.ctor(System.String)
+Missing Doc on System.Void UnityEditor.Rendering.Universal.AutodeskInteractiveUpgrader::Convert(Material, Material)
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeSurfaceType
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeSurfaceType.Opaque
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeSurfaceType.Transparent
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeBlendMode
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeBlendMode.Alpha
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeBlendMode.Premultiply
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeBlendMode.Additive
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeBlendMode.Multiply
+Missing Doc on UnityEditor.Rendering.Universal.SpecularSource
+Missing Doc on UnityEditor.Rendering.Universal.SpecularSource.SpecularTextureAndColor
+Missing Doc on UnityEditor.Rendering.Universal.SpecularSource.NoSpecular
+Missing Doc on UnityEditor.Rendering.Universal.SmoothnessSource
+Missing Doc on UnityEditor.Rendering.Universal.SmoothnessSource.BaseAlpha
+Missing Doc on UnityEditor.Rendering.Universal.SmoothnessSource.SpecularAlpha
+Missing Doc on UnityEditor.Rendering.Universal.ReflectionSource
+Missing Doc on UnityEditor.Rendering.Universal.ReflectionSource.NoReflection
+Missing Doc on UnityEditor.Rendering.Universal.ReflectionSource.Cubemap
+Missing Doc on UnityEditor.Rendering.Universal.ReflectionSource.ReflectionProbe
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeParams
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeParams.surfaceType
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeParams.blendMode
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeParams.alphaClip
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeParams.specularSource
+Missing Doc on UnityEditor.Rendering.Universal.UpgradeParams.smoothnessSource
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.MaterialType
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.MaterialType.Lit
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.MaterialType.Unlit
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.MaterialType.SpriteLit
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.MaterialType.SpriteUnlit
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.WorkflowMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.WorkflowMode.Specular
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGraph.WorkflowMode.Metallic
+Missing Doc on UnityEditor.BaseShaderGUI
+Missing Doc on UnityEditor.BaseShaderGUI.materialEditor
+Missing Doc on UnityEditor.BaseShaderGUI.surfaceTypeProp
+Missing Doc on UnityEditor.BaseShaderGUI.blendModeProp
+Missing Doc on UnityEditor.BaseShaderGUI.cullingProp
+Missing Doc on UnityEditor.BaseShaderGUI.alphaClipProp
+Missing Doc on UnityEditor.BaseShaderGUI.alphaCutoffProp
+Missing Doc on UnityEditor.BaseShaderGUI.receiveShadowsProp
+Missing Doc on UnityEditor.BaseShaderGUI.baseMapProp
+Missing Doc on UnityEditor.BaseShaderGUI.baseColorProp
+Missing Doc on UnityEditor.BaseShaderGUI.emissionMapProp
+Missing Doc on UnityEditor.BaseShaderGUI.emissionColorProp
+Missing Doc on UnityEditor.BaseShaderGUI.queueOffsetProp
+Missing Doc on UnityEditor.BaseShaderGUI.m_FirstTimeApply
+Missing Doc on UnityEditor.BaseShaderGUI.headerStateKey
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::MaterialChanged(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::FindProperties(MaterialProperty[])
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::OnGUI(MaterialEditor, MaterialProperty[])
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::OnOpenGUI(Material, MaterialEditor)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::ShaderPropertiesGUI(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawSurfaceOptions(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawSurfaceInputs(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawAdvancedOptions(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawQueueOffsetField()
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawAdditionalFoldouts(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawBaseProperties(Material)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DrawEmissionProperties(Material, System.Boolean)
+Missing Doc on static System.Void UnityEditor.BaseShaderGUI::DrawNormalArea(MaterialEditor, MaterialProperty, MaterialProperty)
+Missing Doc on static System.Void UnityEditor.BaseShaderGUI::DrawTileOffset(MaterialEditor, MaterialProperty)
+Missing Doc on static System.Void UnityEditor.BaseShaderGUI::SetMaterialKeywords(Material, System.Action<Material>, System.Action<Material>)
+Missing Doc on static System.Void UnityEditor.BaseShaderGUI::SetupMaterialBlendMode(Material)
+Missing Doc on static System.Void UnityEditor.BaseShaderGUI::TwoFloatSingleLine(GUIContent, MaterialProperty, GUIContent, MaterialProperty, GUIContent, MaterialEditor, System.Single)
+Missing Doc on System.Void UnityEditor.BaseShaderGUI::DoPopup(GUIContent, MaterialProperty, System.String[])
+Missing Doc on static System.Void UnityEditor.BaseShaderGUI::DoPopup(GUIContent, MaterialProperty, System.String[], MaterialEditor)
+Missing Doc on static Rect UnityEditor.BaseShaderGUI::TextureColorProps(MaterialEditor, GUIContent, MaterialProperty, MaterialProperty, System.Boolean)
+Missing Doc on static MaterialProperty UnityEditor.BaseShaderGUI::FindProperty(System.String, MaterialProperty[])
+Missing Doc on static MaterialProperty UnityEditor.BaseShaderGUI::FindProperty(System.String, MaterialProperty[], System.Boolean)
+Missing Doc on UnityEditor.BaseShaderGUI.SurfaceType
+Missing Doc on UnityEditor.BaseShaderGUI.SurfaceType.Opaque
+Missing Doc on UnityEditor.BaseShaderGUI.SurfaceType.Transparent
+Missing Doc on UnityEditor.BaseShaderGUI.BlendMode
+Missing Doc on UnityEditor.BaseShaderGUI.BlendMode.Alpha
+Missing Doc on UnityEditor.BaseShaderGUI.BlendMode.Premultiply
+Missing Doc on UnityEditor.BaseShaderGUI.BlendMode.Additive
+Missing Doc on UnityEditor.BaseShaderGUI.BlendMode.Multiply
+Missing Doc on UnityEditor.BaseShaderGUI.SmoothnessSource
+Missing Doc on UnityEditor.BaseShaderGUI.SmoothnessSource.BaseAlpha
+Missing Doc on UnityEditor.BaseShaderGUI.SmoothnessSource.SpecularAlpha
+Missing Doc on UnityEditor.BaseShaderGUI.RenderFace
+Missing Doc on UnityEditor.BaseShaderGUI.RenderFace.Front
+Missing Doc on UnityEditor.BaseShaderGUI.RenderFace.Back
+Missing Doc on UnityEditor.BaseShaderGUI.RenderFace.Both
+Missing Doc on UnityEditor.BaseShaderGUI.Styles
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.SurfaceOptions
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.SurfaceInputs
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.AdvancedLabel
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.surfaceType
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.blendingMode
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.cullingText
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.alphaClipText
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.alphaClipThresholdText
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.receiveShadowText
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.baseMap
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.emissionMap
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.normalMapText
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.bumpScaleNotSupported
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.fixNormalNow
+Missing Doc on UnityEditor.BaseShaderGUI.Styles.queueSlider
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI::SetupMaterialWithColorMode(Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI::FadingOptions(Material, MaterialEditor, UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI::DoVertexStreamsArea(Material, System.Collections.Generic.List<ParticleSystemRenderer>, System.Boolean)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI::SetMaterialKeywords(Material)
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode.Multiply
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode.Additive
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode.Subtractive
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode.Overlay
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode.Color
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ColorMode.Difference
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.colorMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.flipbookMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.softParticlesEnabled
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.softParticlesNearFadeDistanceText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.softParticlesFarFadeDistanceText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.cameraFadingEnabled
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.cameraNearFadeDistanceText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.cameraFarFadeDistanceText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.distortionEnabled
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.distortionStrength
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.distortionBlend
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.VertexStreams
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamPositionText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamNormalText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamColorText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamColorInstancedText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamUVText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamUV2Text
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamAnimBlendText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamAnimFrameText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamTangentText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.streamApplyToAllSystemsText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.undoApplyCustomVertexStreams
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.Styles.vertexStreamIcon
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.colorMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.flipbookMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.softParticlesEnabled
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.cameraFadingEnabled
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.distortionEnabled
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.softParticlesNearFadeDistance
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.softParticlesFarFadeDistance
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.cameraNearFadeDistance
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.cameraFarFadeDistance
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.distortionBlend
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties.distortionStrength
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ShaderGUI.ParticleGUI.ParticleProperties::.ctor(MaterialProperty[])
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.BakedLitGUI
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.BakedLitGUI::Inputs(UnityEditor.Rendering.Universal.ShaderGUI.BakedLitGUI.BakedLitProperties, MaterialEditor)
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.BakedLitGUI.BakedLitProperties
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.BakedLitGUI.BakedLitProperties.bumpMapProp
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ShaderGUI.BakedLitGUI.BakedLitProperties::.ctor(MaterialProperty[])
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.LitGUI::Inputs(UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties, MaterialEditor, Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.LitGUI::DoClearCoat(UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties, MaterialEditor, Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.LitGUI::DoMetallicSpecularArea(UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties, MaterialEditor, Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.LitGUI::DoSmoothness(UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties, Material, System.String[])
+Missing Doc on static UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.SmoothnessMapChannel UnityEditor.Rendering.Universal.ShaderGUI.LitGUI::GetSmoothnessMapChannel(Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.LitGUI::SetMaterialKeywords(Material)
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.WorkflowMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.WorkflowMode.Specular
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.WorkflowMode.Metallic
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.SmoothnessMapChannel
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.SmoothnessMapChannel.SpecularMetallicAlpha
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.SmoothnessMapChannel.AlbedoAlpha
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.workflowModeText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.specularMapText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.metallicMapText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.smoothnessText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.smoothnessMapChannelText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.highlightsText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.reflectionsText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.heightMapText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.occlusionText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.metallicSmoothnessChannelNames
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.specularSmoothnessChannelNames
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.clearCoatText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.clearCoatMaskText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.Styles.clearCoatSmoothnessText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.workflowMode
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.metallic
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.specColor
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.metallicGlossMap
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.specGlossMap
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.smoothness
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.smoothnessMapChannel
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.bumpMapProp
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.bumpScaleProp
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.parallaxMapProp
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.parallaxScaleProp
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.occlusionStrength
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.occlusionMap
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.highlights
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.reflections
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.clearCoat
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.clearCoatMap
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.clearCoatMask
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties.clearCoatSmoothness
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ShaderGUI.LitGUI.LitProperties::.ctor(MaterialProperty[])
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI::Inputs(UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties, MaterialEditor, Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI::Advanced(UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI::DoSpecularArea(UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties, MaterialEditor, Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI::DoSmoothness(UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties, Material)
+Missing Doc on static System.Void UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI::SetMaterialKeywords(Material)
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SpecularSource
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SpecularSource.SpecularTextureAndColor
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SpecularSource.NoSpecular
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SmoothnessMapChannel
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SmoothnessMapChannel.SpecularAlpha
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SmoothnessMapChannel.AlbedoAlpha
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.Styles
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.Styles.specularMapText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.Styles.smoothnessText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.Styles.smoothnessMapChannelText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.Styles.highlightsText
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties.specColor
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties.specGlossMap
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties.specHighlights
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties.smoothnessMapChannel
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties.smoothness
+Missing Doc on UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties.bumpMapProp
+Missing Doc on System.Void UnityEditor.Rendering.Universal.ShaderGUI.SimpleLitGUI.SimpleLitProperties::.ctor(MaterialProperty[])
+Missing Doc on UnityEngine.Rendering.Universal.ComponentUtility
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRenderPass::FrameCleanup(CommandBuffer)
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPass.renderPassEvent
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPass.colorAttachments
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPass.colorAttachment
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPass.depthAttachment
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPass.clearFlag
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPass.clearColor
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRenderPass::.ctor()
+Unexpected <param name="colorAttachment"> on System.Void UnityEngine.Rendering.Universal.ScriptableRenderPass::ConfigureTarget(RenderTargetIdentifier[], RenderTargetIdentifier)
+Missing <param name="colorAttachments"> on method System.Void UnityEngine.Rendering.Universal.ScriptableRenderPass::ConfigureTarget(RenderTargetIdentifier[], RenderTargetIdentifier)
+Unexpected <param name="colorAttachment"> on System.Void UnityEngine.Rendering.Universal.ScriptableRenderPass::ConfigureTarget(RenderTargetIdentifier[])
+Missing <param name="colorAttachments"> on method System.Void UnityEngine.Rendering.Universal.ScriptableRenderPass::ConfigureTarget(RenderTargetIdentifier[])
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.ScriptableRenderPass::op_LessThan(UnityEngine.Rendering.Universal.ScriptableRenderPass, UnityEngine.Rendering.Universal.ScriptableRenderPass)
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.ScriptableRenderPass::op_GreaterThan(UnityEngine.Rendering.Universal.ScriptableRenderPass, UnityEngine.Rendering.Universal.ScriptableRenderPass)
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.k_MinLutSize
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.k_MaxLutSize
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRendererData UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::LoadBuiltinRendererData(UnityEngine.Rendering.Universal.RendererType)
+Missing Doc on RenderPipeline UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::CreatePipeline()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::OnValidate()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::OnDisable()
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsCameraDepthTexture
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsCameraOpaqueTexture
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.opaqueDownsampling
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsTerrainHoles
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsHDR
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.msaaSampleCount
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.renderScale
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.mainLightRenderingMode
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsMainLightShadows
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.mainLightShadowmapResolution
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.additionalLightsRenderingMode
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.maxAdditionalLightsCount
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsAdditionalLightShadows
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.additionalLightsShadowmapResolution
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsDynamicBatching
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.supportsMixedLighting
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.shaderVariantLogLevel
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.useSRPBatcher
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.colorGradingMode
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.colorGradingLutSize
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultParticleMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultLineMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultTerrainMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultUIMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultUIOverdrawMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultUIETC1SupportedMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.default2DMaterial
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.defaultShader
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::OnBeforeSerialize()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::OnAfterDeserialize()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRenderer::.ctor(UnityEngine.Rendering.Universal.ScriptableRendererData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRenderer::Dispose()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRenderer::Dispose(System.Boolean)
+Unexpected <param name="cameraClearFlags"> on static ClearFlag UnityEngine.Rendering.Universal.ScriptableRenderer::GetCameraClearFlag(UnityEngine.Rendering.Universal.CameraData)
+Missing <param name="cameraData"> on method static ClearFlag UnityEngine.Rendering.Universal.ScriptableRenderer::GetCameraClearFlag(UnityEngine.Rendering.Universal.CameraData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ForwardLights::.ctor()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ForwardLights::Setup(ScriptableRenderContext, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ForwardRenderer::.ctor(UnityEngine.Rendering.Universal.ForwardRendererData)
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.postProcessData
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.shaders
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderer UnityEngine.Rendering.Universal.ForwardRendererData::Create()
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.defaultStencilState
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ForwardRendererData::OnEnable()
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.blitPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.copyDepthPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.screenSpaceShadowPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.samplingPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.tileDepthInfoPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.tileDeferredPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.stencilDeferredPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.fallbackErrorPS
+Missing Doc on UnityEngine.Rendering.Universal.ForwardRendererData.ShaderResources.materialErrorPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessUtils
+Missing Doc on static System.Int32 UnityEngine.Rendering.Universal.PostProcessUtils::ConfigureDithering(UnityEngine.Rendering.Universal.PostProcessData, System.Int32, System.Int32, System.Int32, Material)
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.PostProcessUtils::ConfigureFilmGrain(UnityEngine.Rendering.Universal.PostProcessData, UnityEngine.Rendering.Universal.FilmGrain, System.Int32, System.Int32, Material)
+Missing Doc on UnityEngine.Rendering.Universal.RenderTargetHandle
+Missing Doc on UnityEngine.Rendering.Universal.RenderTargetHandle.id
+Missing Doc on UnityEngine.Rendering.Universal.RenderTargetHandle.CameraTarget
+Missing Doc on System.Void UnityEngine.Rendering.Universal.RenderTargetHandle::.ctor(RenderTargetIdentifier)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.RenderTargetHandle::Init(System.String)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.RenderTargetHandle::Init(RenderTargetIdentifier)
+Missing Doc on RenderTargetIdentifier UnityEngine.Rendering.Universal.RenderTargetHandle::Identifier()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.RenderTargetHandle::HasInternalRenderTargetId()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.RenderTargetHandle::Equals(UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.RenderTargetHandle::Equals(System.Object)
+Missing Doc on System.Int32 UnityEngine.Rendering.Universal.RenderTargetHandle::GetHashCode()
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.RenderTargetHandle::op_Equality(UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.RenderTargetHandle::op_Inequality(UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing Doc on UnityEngine.Rendering.Universal.SampleCount
+Missing Doc on UnityEngine.Rendering.Universal.SampleCount.One
+Missing Doc on UnityEngine.Rendering.Universal.SampleCount.Two
+Missing Doc on UnityEngine.Rendering.Universal.SampleCount.Four
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRendererData::OnValidate()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRendererData::OnEnable()
+Unexpected <param name="renderPasses"> on System.Void UnityEngine.Rendering.Universal.ScriptableRendererFeature::AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer, UnityEngine.Rendering.Universal.RenderingData)
+Missing <param name="renderer"> on method System.Void UnityEngine.Rendering.Universal.ScriptableRendererFeature::AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ScriptableRendererFeature::Dispose(System.Boolean)
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.Lit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.SimpleLit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.Unlit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.TerrainLit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.ParticlesLit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.ParticlesSimpleLit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.ParticlesUnlit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.BakedLit
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.SpeedTree7
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.SpeedTree7Billboard
+Missing Doc on UnityEngine.Rendering.Universal.ShaderPathID.SpeedTree8
+Missing Doc on UnityEngine.Rendering.Universal.ShaderUtils
+Missing Doc on static System.String UnityEngine.Rendering.Universal.ShaderUtils::GetShaderPath(UnityEngine.Rendering.Universal.ShaderPathID)
+Missing Doc on static UnityEngine.Rendering.Universal.ShaderPathID UnityEngine.Rendering.Universal.ShaderUtils::GetEnumFromPath(System.String)
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.ShaderUtils::IsLWShader(Shader)
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData.viewMatrix
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData.projectionMatrix
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData.shadowTransform
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData.offsetX
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData.offsetY
+Missing Doc on UnityEngine.Rendering.Universal.ShadowSliceData.resolution
+Missing Doc on System.Void UnityEngine.Rendering.Universal.ShadowSliceData::Clear()
+Missing Doc on UnityEngine.Rendering.Universal.ShadowUtils
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.ShadowUtils::ExtractDirectionalLightMatrix(CullingResults, UnityEngine.Rendering.Universal.ShadowData, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Single, Vector4, UnityEngine.Rendering.Universal.ShadowSliceData, Matrix4x4, Matrix4x4)
+Missing Doc on static System.Boolean UnityEngine.Rendering.Universal.ShadowUtils::ExtractSpotLightMatrix(CullingResults, UnityEngine.Rendering.Universal.ShadowData, System.Int32, Matrix4x4, Matrix4x4, Matrix4x4)
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.ShadowUtils::RenderShadowSlice(CommandBuffer, ScriptableRenderContext, UnityEngine.Rendering.Universal.ShadowSliceData, ShadowDrawingSettings, Matrix4x4, Matrix4x4)
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.ShadowUtils::RenderShadowSlice(CommandBuffer, ScriptableRenderContext, UnityEngine.Rendering.Universal.ShadowSliceData, ShadowDrawingSettings)
+Missing Doc on static System.Int32 UnityEngine.Rendering.Universal.ShadowUtils::GetMaxTileResolutionInAtlas(System.Int32, System.Int32, System.Int32)
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.ShadowUtils::ApplySliceTransform(UnityEngine.Rendering.Universal.ShadowSliceData, System.Int32, System.Int32)
+Missing Doc on static Vector4 UnityEngine.Rendering.Universal.ShadowUtils::GetShadowBias(VisibleLight, System.Int32, UnityEngine.Rendering.Universal.ShadowData, Matrix4x4, System.Single)
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.ShadowUtils::SetupShadowCasterConstantBuffer(CommandBuffer, VisibleLight, Vector4)
+Missing Doc on static RenderTexture UnityEngine.Rendering.Universal.ShadowUtils::GetTemporaryShadowTexture(System.Int32, System.Int32, System.Int32)
+Missing Doc on UnityEngine.Rendering.Universal.CameraOverrideOption.Off
+Missing Doc on UnityEngine.Rendering.Universal.CameraOverrideOption.On
+Missing Doc on UnityEngine.Rendering.Universal.CameraOverrideOption.UsePipelineSettings
+Missing Doc on UnityEngine.Rendering.Universal.RendererOverrideOption
+Missing Doc on UnityEngine.Rendering.Universal.RendererOverrideOption.Custom
+Missing Doc on UnityEngine.Rendering.Universal.RendererOverrideOption.UsePipelineSettings
+Missing Doc on UnityEngine.Rendering.Universal.AntialiasingMode.None
+Missing Doc on UnityEngine.Rendering.Universal.AntialiasingMode.FastApproximateAntialiasing
+Missing Doc on UnityEngine.Rendering.Universal.AntialiasingMode.SubpixelMorphologicalAntiAliasing
+Missing Doc on UnityEngine.Rendering.Universal.CameraRenderType.Base
+Missing Doc on UnityEngine.Rendering.Universal.CameraRenderType.Overlay
+Missing Doc on UnityEngine.Rendering.Universal.AntialiasingQuality.Low
+Missing Doc on UnityEngine.Rendering.Universal.AntialiasingQuality.Medium
+Missing Doc on UnityEngine.Rendering.Universal.AntialiasingQuality.High
+Missing Doc on UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+Missing Doc on UnityEngine.Rendering.Universal.UniversalAdditionalCameraData.version
+Missing Doc on UnityEngine.Rendering.Universal.UniversalAdditionalCameraData.volumeStack
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalAdditionalCameraData::OnBeforeSerialize()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalAdditionalCameraData::OnAfterDeserialize()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalAdditionalCameraData::OnDrawGizmos()
+Missing Doc on UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+Missing Doc on UnityEngine.Rendering.Universal.UniversalAdditionalLightData.usePipelineSettings
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline.k_ShaderTagName
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline.maxShadowBias
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline.minRenderScale
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline.maxRenderScale
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline.maxPerObjectLights
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipeline.maxVisibleAdditionalLights
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipeline::.ctor(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipeline::Dispose(System.Boolean)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.UniversalRenderPipeline::Render(ScriptableRenderContext, Camera[])
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.UniversalRenderPipeline::GetLightAttenuationAndSpotDirection(LightType, System.Single, Matrix4x4, System.Single, System.Nullable<float>, Vector4, Vector4)
+Missing Doc on static System.Void UnityEngine.Rendering.Universal.UniversalRenderPipeline::InitializeLightConstants_Common(NativeArray<VisibleLight>, System.Int32, Vector4, Vector4, Vector4, Vector4, Vector4)
+Missing Doc on UnityEngine.Rendering.Universal.MixedLightingSetup
+Missing Doc on UnityEngine.Rendering.Universal.MixedLightingSetup.None
+Missing Doc on UnityEngine.Rendering.Universal.MixedLightingSetup.ShadowMask
+Missing Doc on UnityEngine.Rendering.Universal.MixedLightingSetup.Subtractive
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.cullResults
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.cameraData
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.lightData
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.shadowData
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.postProcessingData
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.supportsDynamicBatching
+Missing Doc on UnityEngine.Rendering.Universal.RenderingData.perObjectData
+Missing Doc on UnityEngine.Rendering.Universal.LightData
+Missing Doc on UnityEngine.Rendering.Universal.LightData.mainLightIndex
+Missing Doc on UnityEngine.Rendering.Universal.LightData.additionalLightsCount
+Missing Doc on UnityEngine.Rendering.Universal.LightData.maxPerObjectAdditionalLightsCount
+Missing Doc on UnityEngine.Rendering.Universal.LightData.visibleLights
+Missing Doc on UnityEngine.Rendering.Universal.LightData.shadeAdditionalLightsPerVertex
+Missing Doc on UnityEngine.Rendering.Universal.LightData.supportsMixedLighting
+Missing Doc on UnityEngine.Rendering.Universal.CameraData
+Missing <param name="viewIndex"> on method Matrix4x4 UnityEngine.Rendering.Universal.CameraData::GetViewMatrix(System.Int32)
+Missing <param name="viewIndex"> on method Matrix4x4 UnityEngine.Rendering.Universal.CameraData::GetProjectionMatrix(System.Int32)
+Missing <param name="viewIndex"> on method Matrix4x4 UnityEngine.Rendering.Universal.CameraData::GetGPUProjectionMatrix(System.Int32)
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.camera
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.renderType
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.targetTexture
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.cameraTargetDescriptor
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.renderScale
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.clearDepth
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.cameraType
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.isDefaultViewport
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.isHdrEnabled
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.requiresDepthTexture
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.requiresOpaqueTexture
+Missing <returns> on non-void method System.Boolean UnityEngine.Rendering.Universal.CameraData::IsCameraProjectionMatrixFlipped()
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.defaultOpaqueSortFlags
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.maxShadowDistance
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.postProcessEnabled
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.captureActions
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.volumeLayerMask
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.volumeTrigger
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.isStopNaNEnabled
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.isDitheringEnabled
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.antialiasing
+Missing Doc on UnityEngine.Rendering.Universal.CameraData.antialiasingQuality
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.supportsMainLightShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.requiresScreenSpaceShadowResolve
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.mainLightShadowmapWidth
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.mainLightShadowmapHeight
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.mainLightShadowCascadesCount
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.mainLightShadowCascadesSplit
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.supportsAdditionalLightShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.additionalLightsShadowmapWidth
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.additionalLightsShadowmapHeight
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.supportsSoftShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.shadowmapDepthBufferBits
+Missing Doc on UnityEngine.Rendering.Universal.ShadowData.bias
+Missing Doc on UnityEngine.Rendering.Universal.PreTile
+Missing Doc on UnityEngine.Rendering.Universal.PreTile.planeLeft
+Missing Doc on UnityEngine.Rendering.Universal.PreTile.planeRight
+Missing Doc on UnityEngine.Rendering.Universal.PreTile.planeBottom
+Missing Doc on UnityEngine.Rendering.Universal.PreTile.planeTop
+Missing Doc on UnityEngine.Rendering.Universal.TileData
+Missing Doc on UnityEngine.Rendering.Universal.TileData.tileID
+Missing Doc on UnityEngine.Rendering.Universal.TileData.listBitMask
+Missing Doc on UnityEngine.Rendering.Universal.TileData.relLightOffset
+Missing Doc on UnityEngine.Rendering.Universal.TileData.unused
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.wsPos
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.radius
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.color
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.attenuation
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.spotDirection
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.lightIndex
+Missing Doc on UnityEngine.Rendering.Universal.PunctualLightData.occlusionProbeInfo
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessingData
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessingData.gradingMode
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessingData.lutSize
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.MainLightShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.MainLightShadowCascades
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.AdditionalLightsVertex
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.AdditionalLightsPixel
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.AdditionalLightShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.SoftShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.MixedLightingSubtractive
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.LightmapShadowMixing
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.ShadowsShadowMask
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DepthNoMsaa
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DepthMsaa2
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DepthMsaa4
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DepthMsaa8
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.LinearToSRGBConversion
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.SmaaLow
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.SmaaMedium
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.SmaaHigh
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.PaniniGeneric
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.PaniniUnitDistance
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.BloomLQ
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.BloomHQ
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.BloomLQDirt
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.BloomHQDirt
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.UseRGBM
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.Distortion
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.ChromaticAberration
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.HDRGrading
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.TonemapACES
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.TonemapNeutral
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.FilmGrain
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.Fxaa
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.Dithering
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.ScreenSpaceOcclusion
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.HighQualitySampling
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DOWNSAMPLING_SIZE_2
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DOWNSAMPLING_SIZE_4
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DOWNSAMPLING_SIZE_8
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DOWNSAMPLING_SIZE_16
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._SPOT
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._DIRECTIONAL
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._POINT
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._DEFERRED_ADDITIONAL_LIGHT_SHADOWS
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._GBUFFER_NORMALS_OCT
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._DEFERRED_SUBTRACTIVE_LIGHTING
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.LIGHTMAP_ON
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._ALPHATEST_ON
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.DIRLIGHTMAP_COMBINED
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._DETAIL_MULX2
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._DETAIL_SCALED
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._CLEARCOAT
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings._CLEARCOATMAP
+Missing Doc on UnityEngine.Rendering.Universal.ShaderKeywordStrings.UseDrawProcedural
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.lightCookieSprite
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.falloffIntensity
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.useNormalMap
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.alphaBlendOnOverlap
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.lightOrder
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.pointLightInnerAngle
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.pointLightOuterAngle
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.pointLightInnerRadius
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.pointLightOuterRadius
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.pointLightDistance
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.pointLightQuality
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.shapeLightParametricSides
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.shapeLightParametricAngleOffset
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.shapeLightParametricRadius
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.shapeLightFalloffSize
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.shapeLightFalloffOffset
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.shapePath
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.LightType.Parametric
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.LightType.Freeform
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.LightType.Sprite
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.LightType.Point
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.LightType.Global
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2DBlendStyle
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2DBlendStyle.name
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.PointLightQuality
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.PointLightQuality.Fast
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Light2D.PointLightQuality.Accurate
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData.hdrEmulationScale
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData.lightBlendStyles
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderer UnityEngine.Experimental.Rendering.Universal.Renderer2DData::Create()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.Renderer2DData::OnEnable()
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData.Renderer2DDefaultMaterialType
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData.Renderer2DDefaultMaterialType.Lit
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData.Renderer2DDefaultMaterialType.Unlit
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.Renderer2DData.Renderer2DDefaultMaterialType.Custom
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.CompositeShadowCaster2D
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.CompositeShadowCaster2D::OnEnable()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.CompositeShadowCaster2D::OnDisable()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.ShadowCaster2D::OnEnable()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.ShadowCaster2D::OnDisable()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.ShadowCaster2D::Update()
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.ShadowCasterGroup2D
+Missing Doc on System.Collections.Generic.List<UnityEngine.Experimental.Rendering.Universal.ShadowCaster2D> UnityEngine.Experimental.Rendering.Universal.ShadowCasterGroup2D::GetShadowCasters()
+Missing Doc on System.Int32 UnityEngine.Experimental.Rendering.Universal.ShadowCasterGroup2D::GetShadowGroup()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.ShadowCasterGroup2D::RegisterShadowCaster2D(UnityEngine.Experimental.Rendering.Universal.ShadowCaster2D)
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.ShadowCasterGroup2D::UnregisterShadowCaster2D(UnityEngine.Experimental.Rendering.Universal.ShadowCaster2D)
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.shaders
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.textures
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.stopNanPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.subpixelMorphologicalAntialiasingPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.gaussianDepthOfFieldPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.bokehDepthOfFieldPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.cameraMotionBlurPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.paniniProjectionPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.lutBuilderLdrPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.lutBuilderHdrPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.bloomPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.uberPostPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.ShaderResources.finalPostPassPS
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.TextureResources
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.TextureResources.blueNoise16LTex
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.TextureResources.filmGrainTex
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.TextureResources.smaaAreaTex
+Missing Doc on UnityEngine.Rendering.Universal.PostProcessData.TextureResources.smaaSearchTex
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData.overrideStencilState
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData.stencilReference
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData.stencilCompareFunction
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData.passOperation
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData.failOperation
+Missing Doc on UnityEngine.Rendering.Universal.StencilStateData.zFailOperation
+Missing Doc on UnityEngine.Rendering.Universal.ShadowQuality
+Missing Doc on UnityEngine.Rendering.Universal.ShadowQuality.Disabled
+Missing Doc on UnityEngine.Rendering.Universal.ShadowQuality.HardShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShadowQuality.SoftShadows
+Missing Doc on UnityEngine.Rendering.Universal.ShadowResolution
+Missing Doc on UnityEngine.Rendering.Universal.ShadowResolution._256
+Missing Doc on UnityEngine.Rendering.Universal.ShadowResolution._512
+Missing Doc on UnityEngine.Rendering.Universal.ShadowResolution._1024
+Missing Doc on UnityEngine.Rendering.Universal.ShadowResolution._2048
+Missing Doc on UnityEngine.Rendering.Universal.ShadowResolution._4096
+Missing Doc on UnityEngine.Rendering.Universal.MsaaQuality
+Missing Doc on UnityEngine.Rendering.Universal.MsaaQuality.Disabled
+Missing Doc on UnityEngine.Rendering.Universal.MsaaQuality._2x
+Missing Doc on UnityEngine.Rendering.Universal.MsaaQuality._4x
+Missing Doc on UnityEngine.Rendering.Universal.MsaaQuality._8x
+Missing Doc on UnityEngine.Rendering.Universal.Downsampling
+Missing Doc on UnityEngine.Rendering.Universal.Downsampling.None
+Missing Doc on UnityEngine.Rendering.Universal.Downsampling._2xBilinear
+Missing Doc on UnityEngine.Rendering.Universal.Downsampling._4xBox
+Missing Doc on UnityEngine.Rendering.Universal.Downsampling._4xBilinear
+Missing Doc on UnityEngine.Rendering.Universal.LightRenderingMode
+Missing Doc on UnityEngine.Rendering.Universal.LightRenderingMode.Disabled
+Missing Doc on UnityEngine.Rendering.Universal.LightRenderingMode.PerVertex
+Missing Doc on UnityEngine.Rendering.Universal.LightRenderingMode.PerPixel
+Missing Doc on UnityEngine.Rendering.Universal.ShaderVariantLogLevel
+Missing Doc on UnityEngine.Rendering.Universal.ShaderVariantLogLevel.Disabled
+Missing Doc on UnityEngine.Rendering.Universal.ShaderVariantLogLevel.OnlyUniversalRPShaders
+Missing Doc on UnityEngine.Rendering.Universal.ShaderVariantLogLevel.AllShaders
+Missing Doc on UnityEngine.Rendering.Universal.RendererType
+Missing Doc on UnityEngine.Rendering.Universal.RendererType.Custom
+Missing Doc on UnityEngine.Rendering.Universal.RendererType.ForwardRenderer
+Missing Doc on UnityEngine.Rendering.Universal.RendererType._2DRenderer
+Missing Doc on UnityEngine.Rendering.Universal.ColorGradingMode
+Missing Doc on UnityEngine.Rendering.Universal.ColorGradingMode.LowDynamicRange
+Missing Doc on UnityEngine.Rendering.Universal.ColorGradingMode.HighDynamicRange
+Missing Doc on UnityEngine.Rendering.Universal.VolumeFrameworkUpdateMode.EveryFrame
+Missing Doc on UnityEngine.Rendering.Universal.VolumeFrameworkUpdateMode.ViaScripting
+Missing Doc on UnityEngine.Rendering.Universal.VolumeFrameworkUpdateMode.UsePipelineSettings
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.shaders
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.materials
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.autodeskInteractivePS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.autodeskInteractiveTransparentPS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.autodeskInteractiveMaskedPS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.terrainDetailLitPS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.terrainDetailGrassPS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.terrainDetailGrassBillboardPS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.defaultSpeedTree7PS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.ShaderResources.defaultSpeedTree8PS
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.MaterialResources
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.MaterialResources.lit
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.MaterialResources.particleLit
+Missing Doc on UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources.MaterialResources.terrainLit
+Missing Doc on UnityEngine.Rendering.Universal.XRSystemData
+Missing Doc on UnityEngine.Rendering.Universal.XRSystemData.shaders
+Missing Doc on UnityEngine.Rendering.Universal.XRSystemData.ShaderResources
+Missing Doc on UnityEngine.Rendering.Universal.XRSystemData.ShaderResources.xrOcclusionMeshPS
+Missing Doc on UnityEngine.Rendering.Universal.XRSystemData.ShaderResources.xrMirrorViewPS
+Missing Doc on UnityEngine.Rendering.Universal.Bloom
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.threshold
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.intensity
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.scatter
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.clamp
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.tint
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.highQualityFiltering
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.skipIterations
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.dirtTexture
+Missing Doc on UnityEngine.Rendering.Universal.Bloom.dirtIntensity
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Bloom::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Bloom::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.redOutRedIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.redOutGreenIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.redOutBlueIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.greenOutRedIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.greenOutGreenIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.greenOutBlueIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.blueOutRedIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.blueOutGreenIn
+Missing Doc on UnityEngine.Rendering.Universal.ChannelMixer.blueOutBlueIn
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ChannelMixer::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ChannelMixer::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.ChromaticAberration
+Missing Doc on UnityEngine.Rendering.Universal.ChromaticAberration.intensity
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ChromaticAberration::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ChromaticAberration::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.ColorAdjustments
+Missing Doc on UnityEngine.Rendering.Universal.ColorAdjustments.postExposure
+Missing Doc on UnityEngine.Rendering.Universal.ColorAdjustments.contrast
+Missing Doc on UnityEngine.Rendering.Universal.ColorAdjustments.colorFilter
+Missing Doc on UnityEngine.Rendering.Universal.ColorAdjustments.hueShift
+Missing Doc on UnityEngine.Rendering.Universal.ColorAdjustments.saturation
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorAdjustments::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorAdjustments::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.master
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.red
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.green
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.blue
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.hueVsHue
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.hueVsSat
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.satVsSat
+Missing Doc on UnityEngine.Rendering.Universal.ColorCurves.lumVsSat
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorCurves::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorCurves::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.ColorLookup
+Missing Doc on UnityEngine.Rendering.Universal.ColorLookup.texture
+Missing Doc on UnityEngine.Rendering.Universal.ColorLookup.contribution
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorLookup::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorLookup::IsTileCompatible()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ColorLookup::ValidateLUT()
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfFieldMode
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfFieldMode.Off
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfFieldMode.Gaussian
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfFieldMode.Bokeh
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.mode
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.gaussianStart
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.gaussianEnd
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.gaussianMaxRadius
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.highQualitySampling
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.focusDistance
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.aperture
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.focalLength
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.bladeCount
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.bladeCurvature
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfField.bladeRotation
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.DepthOfField::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.DepthOfField::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+Missing Doc on System.Void UnityEngine.Rendering.Universal.DepthOfFieldModeParameter::.ctor(UnityEngine.Rendering.Universal.DepthOfFieldMode, System.Boolean)
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Thin1
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Thin2
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Medium1
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Medium2
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Medium3
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Medium4
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Medium5
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Medium6
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Large01
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Large02
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookup.Custom
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrain
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrain.type
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrain.intensity
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrain.response
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrain.texture
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.FilmGrain::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.FilmGrain::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.FilmGrainLookupParameter
+Missing Doc on System.Void UnityEngine.Rendering.Universal.FilmGrainLookupParameter::.ctor(UnityEngine.Rendering.Universal.FilmGrainLookup, System.Boolean)
+Missing Doc on UnityEngine.Rendering.Universal.LensDistortion
+Missing Doc on UnityEngine.Rendering.Universal.LensDistortion.intensity
+Missing Doc on UnityEngine.Rendering.Universal.LensDistortion.xMultiplier
+Missing Doc on UnityEngine.Rendering.Universal.LensDistortion.yMultiplier
+Missing Doc on UnityEngine.Rendering.Universal.LensDistortion.center
+Missing Doc on UnityEngine.Rendering.Universal.LensDistortion.scale
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.LensDistortion::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.LensDistortion::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.LiftGammaGain
+Missing Doc on UnityEngine.Rendering.Universal.LiftGammaGain.lift
+Missing Doc on UnityEngine.Rendering.Universal.LiftGammaGain.gamma
+Missing Doc on UnityEngine.Rendering.Universal.LiftGammaGain.gain
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.LiftGammaGain::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.LiftGammaGain::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurMode
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurMode.CameraOnly
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurMode.CameraAndObjects
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurQuality
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurQuality.Low
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurQuality.Medium
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurQuality.High
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlur
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlur.mode
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlur.quality
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlur.intensity
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlur.clamp
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.MotionBlur::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.MotionBlur::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurModeParameter
+Missing Doc on System.Void UnityEngine.Rendering.Universal.MotionBlurModeParameter::.ctor(UnityEngine.Rendering.Universal.MotionBlurMode, System.Boolean)
+Missing Doc on UnityEngine.Rendering.Universal.MotionBlurQualityParameter
+Missing Doc on System.Void UnityEngine.Rendering.Universal.MotionBlurQualityParameter::.ctor(UnityEngine.Rendering.Universal.MotionBlurQuality, System.Boolean)
+Missing Doc on UnityEngine.Rendering.Universal.PaniniProjection
+Missing Doc on UnityEngine.Rendering.Universal.PaniniProjection.distance
+Missing Doc on UnityEngine.Rendering.Universal.PaniniProjection.cropToFit
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.PaniniProjection::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.PaniniProjection::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.shadows
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.midtones
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.highlights
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.shadowsStart
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.shadowsEnd
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.highlightsStart
+Missing Doc on UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights.highlightsEnd
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.SplitToning
+Missing Doc on UnityEngine.Rendering.Universal.SplitToning.shadows
+Missing Doc on UnityEngine.Rendering.Universal.SplitToning.highlights
+Missing Doc on UnityEngine.Rendering.Universal.SplitToning.balance
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.SplitToning::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.SplitToning::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.TonemappingMode
+Missing Doc on UnityEngine.Rendering.Universal.TonemappingMode.None
+Missing Doc on UnityEngine.Rendering.Universal.TonemappingMode.Neutral
+Missing Doc on UnityEngine.Rendering.Universal.TonemappingMode.ACES
+Missing Doc on UnityEngine.Rendering.Universal.Tonemapping
+Missing Doc on UnityEngine.Rendering.Universal.Tonemapping.mode
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Tonemapping::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Tonemapping::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.TonemappingModeParameter
+Missing Doc on System.Void UnityEngine.Rendering.Universal.TonemappingModeParameter::.ctor(UnityEngine.Rendering.Universal.TonemappingMode, System.Boolean)
+Missing Doc on UnityEngine.Rendering.Universal.Vignette
+Missing Doc on UnityEngine.Rendering.Universal.Vignette.color
+Missing Doc on UnityEngine.Rendering.Universal.Vignette.center
+Missing Doc on UnityEngine.Rendering.Universal.Vignette.intensity
+Missing Doc on UnityEngine.Rendering.Universal.Vignette.smoothness
+Missing Doc on UnityEngine.Rendering.Universal.Vignette.rounded
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Vignette::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Vignette::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.WhiteBalance
+Missing Doc on UnityEngine.Rendering.Universal.WhiteBalance.temperature
+Missing Doc on UnityEngine.Rendering.Universal.WhiteBalance.tint
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.WhiteBalance::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.WhiteBalance::IsTileCompatible()
+Missing Doc on UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass.m_AdditionalShadowsBufferId
+Missing Doc on UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass.m_AdditionalShadowsIndicesId
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent)
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass::Setup(UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass::Configure(CommandBuffer, RenderTextureDescriptor)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass::OnCameraCleanup(CommandBuffer)
+Missing Doc on System.Int32 UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass::GetShadowLightIndexFromLightIndex(System.Int32)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ColorGradingLutPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, UnityEngine.Rendering.Universal.PostProcessData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ColorGradingLutPass::Setup(UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ColorGradingLutPass::Cleanup()
+Missing <param name="evt"> on method System.Void UnityEngine.Rendering.Universal.Internal.CopyColorPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, Material, Material)
+Missing <param name="samplingMaterial"> on method System.Void UnityEngine.Rendering.Universal.Internal.CopyColorPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, Material, Material)
+Missing <param name="copyColorMaterial"> on method System.Void UnityEngine.Rendering.Universal.Internal.CopyColorPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, Material, Material)
+Missing <param name="downsampling"> on method System.Void UnityEngine.Rendering.Universal.Internal.CopyColorPass::Setup(RenderTargetIdentifier, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.Downsampling)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.CopyColorPass::OnCameraSetup(CommandBuffer, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.CopyDepthPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, Material)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.CopyDepthPass::OnCameraSetup(CommandBuffer, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass
+Missing <param name="evt"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask)
+Missing <param name="renderQueueRange"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask)
+Missing <param name="layerMask"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask)
+Missing <param name="baseDescriptor"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass::Setup(RenderTextureDescriptor, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing <param name="depthHandle"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass::Setup(RenderTextureDescriptor, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing <param name="normalHandle"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthNormalOnlyPass::Setup(RenderTextureDescriptor, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing <param name="evt"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthOnlyPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask)
+Missing <param name="renderQueueRange"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthOnlyPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask)
+Missing <param name="layerMask"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthOnlyPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask)
+Missing <param name="baseDescriptor"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthOnlyPass::Setup(RenderTextureDescriptor, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing <param name="depthAttachmentHandle"> on method System.Void UnityEngine.Rendering.Universal.Internal.DepthOnlyPass::Setup(RenderTextureDescriptor, UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.DepthOnlyPass::OnCameraSetup(CommandBuffer, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.DrawObjectsPass::.ctor(System.String, ShaderTagId[], System.Boolean, UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask, StencilState, System.Int32)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.DrawObjectsPass::.ctor(System.String, System.Boolean, UnityEngine.Rendering.Universal.RenderPassEvent, RenderQueueRange, LayerMask, StencilState, System.Int32)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.DrawSkyboxPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.FinalBlitPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, Material)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.MainLightShadowCasterPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent)
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Internal.MainLightShadowCasterPass::Setup(UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.MainLightShadowCasterPass::Configure(CommandBuffer, RenderTextureDescriptor)
+Missing Doc on UnityEngine.Rendering.Universal.IPostProcessComponent
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.IPostProcessComponent::IsActive()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.IPostProcessComponent::IsTileCompatible()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.PostProcessPass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, UnityEngine.Rendering.Universal.PostProcessData, Material)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.PostProcessPass::Cleanup()
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.PostProcessPass::Setup(RenderTextureDescriptor, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle, UnityEngine.Rendering.Universal.RenderTargetHandle, System.Boolean, System.Boolean)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.PostProcessPass::SetupFinalPass(UnityEngine.Rendering.Universal.RenderTargetHandle)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.PostProcessPass::ResetHistory()
+Missing Doc on System.Boolean UnityEngine.Rendering.Universal.Internal.PostProcessPass::CanRunOnTile()
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass.overrideMaterial
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass.overrideMaterialPassIndex
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass::SetDetphState(System.Boolean, CompareFunction)
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass::SetStencilState(System.Int32, CompareFunction, StencilOp, StencilOp, StencilOp)
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass::.ctor(System.String, UnityEngine.Rendering.Universal.RenderPassEvent, System.String[], UnityEngine.Experimental.Rendering.Universal.RenderQueueType, System.Int32, UnityEngine.Experimental.Rendering.Universal.RenderObjects.CustomCameraSettings)
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass::Execute(ScriptableRenderContext, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ScreenSpaceShadowResolvePass::.ctor(UnityEngine.Rendering.Universal.RenderPassEvent, Material)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ScreenSpaceShadowResolvePass::Setup(RenderTextureDescriptor)
+Missing Doc on System.Void UnityEngine.Rendering.Universal.Internal.ScreenSpaceShadowResolvePass::Configure(CommandBuffer, RenderTextureDescriptor)
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPassInput.None
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPassInput.Depth
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPassInput.Normal
+Missing Doc on UnityEngine.Rendering.Universal.ScriptableRenderPassInput.Color
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderQueueType
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderQueueType.Opaque
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderQueueType.Transparent
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.settings
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjects::Create()
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjects::AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer, UnityEngine.Rendering.Universal.RenderingData)
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.passTag
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.Event
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.filterSettings
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.overrideMaterial
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.overrideMaterialPassIndex
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.overrideDepthState
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.depthCompareFunction
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.enableWrite
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.stencilSettings
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.RenderObjectsSettings.cameraSettings
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.FilterSettings
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.FilterSettings.RenderQueueType
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.FilterSettings.LayerMask
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.FilterSettings.PassNames
+Missing Doc on System.Void UnityEngine.Experimental.Rendering.Universal.RenderObjects.FilterSettings::.ctor()
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.CustomCameraSettings
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.CustomCameraSettings.overrideCamera
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.CustomCameraSettings.restoreCamera
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.CustomCameraSettings.offset
+Missing Doc on UnityEngine.Experimental.Rendering.Universal.RenderObjects.CustomCameraSettings.cameraFieldOfView
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.LightData
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.LightData.position
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.LightData.color
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.LightData.attenuation
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.LightData.spotDirection
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.LightData.occlusionProbeChannels
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.ShadowData
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.ShadowData.worldToShadowMatrix
+Missing Doc on UnityEngine.Rendering.Universal.ShaderInput.ShadowData.shadowParams
+
+    
+NotRun - "API Validation"
+    Information: Previous package binaries must be present on artifactory to do API diff.
+
+    
+NotRun - "Samples Validation"
+    Information: No samples found. Skipping Samples Validation.
+
+    
+NotImplementedYet - "Signature Validation"
+    

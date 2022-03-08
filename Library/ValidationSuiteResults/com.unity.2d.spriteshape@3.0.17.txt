@@ -1,0 +1,126 @@
+Validation Suite Results for package "com.unity.2d.spriteshape"
+ - Path: F:\Escuelita\ULSA2022GGJJ\Library\PackageCache\com.unity.2d.spriteshape@3.0.17
+ - Version: 3.0.17
+ - Type: Tooling
+ - Context: Promotion
+ - Lifecycle: 2
+ - Test Time: 03/03/2022 01:08:45 a. m.
+ - Tested with com.unity.package-validation-suite version: 0.23.4-preview
+
+PACKAGE DEPENDENCIES:
+--------------------
+    - com.unity.mathematics@1.1.0
+    - com.unity.2d.common@2.1.0
+    - com.unity.2d.path@2.1.1
+
+VALIDATION RESULTS:
+------------------
+
+Failed - "API Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "API Validation",
+            "ExceptionMessage": "Compilation failed. Please fix any compilation errors.",
+            "PackageVersion": "3.0.17"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    
+Failed - "Package Lifecycle Validation"
+    Error: Version 3.0.17 of this package already exists in production.
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Package Lifecycle Validation",
+            "ExceptionMessage": "Version 3.0.17 of this package already exists in production.",
+            "PackageVersion": "3.0.17"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    Error: Automated promotion of Release or Release Candidate packages is not allowed. Release Management are the only ones that can promote Release and Release Candidate packages to production, if you need this to happen, please go to #devs-pkg-promotion. Read more about this error and potential solutions at https://docs.unity3d.com/Packages/com.unity.package-validation-suite@latest/index.html?preview=1&subfolder=/manual/lifecycle_validation_error.html#a-release-package-must-be-manually-promoted-by-release-management
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Package Lifecycle Validation",
+            "ExceptionMessage": "Automated promotion of Release or Release Candidate packages is not allowed. Release Management are the only ones that can promote Release and Release Candidate packages to production, if you need this to happen, please go to #devs-pkg-promotion. Read more about this error and potential solutions at https://docs.unity3d.com/Packages/com.unity.package-validation-suite@latest/index.html?preview=1&subfolder=/manual/lifecycle_validation_error.html#a-release-package-must-be-manually-promoted-by-release-management",
+            "PackageVersion": "3.0.17"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    
+Failed - "API Updater Configuration Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "API Updater Configuration Validation",
+            "ExceptionMessage": "Compilation failed. Please fix any compilation errors.",
+            "PackageVersion": "3.0.17"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    
+Failed - "Xmldoc Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+
+    The above error can be excepted with the following ValidationExceptions.json contents:
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Xmldoc Validation",
+            "ExceptionMessage": "Compilation failed. Please fix any compilation errors.",
+            "PackageVersion": "3.0.17"
+        }
+    ],
+    "WarningExceptions": []
+}
+
+    
+Succeeded - "Assembly Definition Validation"
+    
+Succeeded - "Assets Validation"
+    
+Succeeded - "ChangeLog Validation"
+    
+Succeeded - "Package Diff Evaluation"
+    
+Succeeded - "Folder Structure Validation"
+    
+Succeeded - "License Validation"
+    
+Succeeded - "Documentation Validation"
+    
+Succeeded - "Manifest Validation"
+    
+Succeeded - "Meta Files Validation"
+    
+Succeeded - "Package Unity Version Validation"
+    
+Succeeded - "Path Length Validation"
+    
+Succeeded - "Required File Type Validation"
+    
+Succeeded - "Restricted File Type Validation"
+    
+Succeeded - "Samples Validation"
+    
+NotImplementedYet - "Signature Validation"
+    

@@ -31,7 +31,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.pixel-perfect": {
-      "version": "2.1.0",
+      "version": "4.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -55,13 +55,14 @@
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
-      "version": "3.0.17",
+      "version": "5.1.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.2d.common": "2.1.0",
-        "com.unity.2d.path": "2.1.1"
+        "com.unity.2d.common": "4.0.4",
+        "com.unity.2d.path": "4.0.2",
+        "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -165,7 +166,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.package-validation-suite": {
-      "version": "0.23.4-preview",
+      "version": "0.23.6-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PLayer : MonoBehaviour
+public class PLayer : Character
 {
     // Start is called before the first frame update
 
@@ -31,7 +31,6 @@ public class PLayer : MonoBehaviour
     Vector3 rayOrigin;
 
     GameInputs gameInputs;
-
 
     Rigidbody2D rb2D;
 

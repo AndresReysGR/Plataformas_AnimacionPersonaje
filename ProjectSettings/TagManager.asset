@@ -43,3 +43,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Enviroment
+    uniqueID: 2370161179
+    locked: 0
+  - name: Player
+    uniqueID: 4034182539
+    locked: 0
+  - name: Coin
+    uniqueID: 1285757615
+    locked: 0
